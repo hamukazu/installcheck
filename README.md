@@ -1,19 +1,19 @@
-# InstallCheck
+ï»¿# InstallCheck
 
-## DescriptioniŠT—vj
+## Descriptionï¼ˆæ¦‚è¦ï¼‰
 
 This program detects if there is a erased file in a specified directory.
 
-‚±‚ÌƒvƒƒOƒ‰ƒ€‚ÍAw’è‚µ‚½ƒfƒBƒŒƒNƒgƒŠ“à‚ÉÁ‚³‚ê‚½ƒtƒ@ƒCƒ‹‚ª‚ ‚é‚©‚ğŒŸo‚µ‚Ü‚·B
+ã“ã®ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã¯ã€æŒ‡å®šã—ãŸãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªå†…ã«æ¶ˆã•ã‚ŒãŸãƒ•ã‚¡ã‚¤ãƒ«ãŒã‚ã‚‹ã‹ã‚’æ¤œå‡ºã—ã¾ã™ã€‚
 
-## Motivationi“®‹@j
+## Motivationï¼ˆå‹•æ©Ÿï¼‰
 
-In a workshop style class in a university, it is sometimes annoying to handle the problem accompanied with an accidental erase of necessary files by a incautious student.
+In a workshop style class in a university, it is sometimes annoying to handle the problem accompanied with an accidental erase of necessary files by incautious students.
 This tool is intended to check quickly if a file is deleted in a specified directory.
 
-‰‰KƒXƒ^ƒCƒ‹‚Ìö‹Æ‚ÅA•s’ˆÓ‚ÈŠw¶‚ª•K—v‚Èƒtƒ@ƒCƒ‹‚ğÁ‚µ‚½‚±‚Æ‚É‚æ‚éƒgƒ‰ƒuƒ‹‚ª‚æ‚­‚ ‚Á‚ÄƒCƒ‰ƒCƒ‰‚µ‚Ä‚Ü‚µ‚½B‚±‚Ìƒc[ƒ‹‚Íw’è‚µ‚½ƒfƒBƒŒƒNƒgƒŠ“à‚Åƒtƒ@ƒCƒ‹‚ªÁ‚³‚ê‚½‚©‚Ç‚¤‚©‚ğ‘f‘‚­ƒ`ƒFƒbƒN‚·‚é‚½‚ß‚Éì‚ç‚ê‚Ü‚µ‚½B
+æ¼”ç¿’ã‚¹ã‚¿ã‚¤ãƒ«ã®æˆæ¥­ã§ã€ä¸æ³¨æ„ãªå­¦ç”ŸãŒå¿…è¦ãªãƒ•ã‚¡ã‚¤ãƒ«ã‚’æ¶ˆã—ãŸã“ã¨ã«ã‚ˆã‚‹ãƒˆãƒ©ãƒ–ãƒ«ãŒã‚ˆãã‚ã£ã¦ã‚¤ãƒ©ã‚¤ãƒ©ã—ã¦ã¾ã—ãŸã€‚ã“ã®ãƒ„ãƒ¼ãƒ«ã¯æŒ‡å®šã—ãŸãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªå†…ã§ãƒ•ã‚¡ã‚¤ãƒ«ãŒæ¶ˆã•ã‚ŒãŸã‹ã©ã†ã‹ã‚’ç´ æ—©ããƒã‚§ãƒƒã‚¯ã™ã‚‹ãŸã‚ã«ä½œã‚‰ã‚Œã¾ã—ãŸã€‚
 
-## Usageig‚¢•ûj
+## Usageï¼ˆä½¿ã„æ–¹ï¼‰
 
 Type the command as follows:
     ruby installcheckgen.rb path-to-remember
@@ -22,9 +22,9 @@ Now type the command as follows:
   ruby installcheck.rb
 It says "OK" if no file deletion is detected, and says "Broken" otherwise. It does not tell any additional information.
 
-ƒRƒ}ƒ“ƒhƒ‰ƒCƒ“‚©‚çŸ‚Ì‚æ‚¤‚É“ü—Í‚µ‚Ü‚·
+ã‚³ãƒãƒ³ãƒ‰ãƒ©ã‚¤ãƒ³ã‹ã‚‰æ¬¡ã®ã‚ˆã†ã«å…¥åŠ›ã—ã¾ã™
     ruby installcheckgen.rb path-to-remember
-‚·‚é‚Æ"installcheck.rb"‚Æ‚¢‚¤ƒtƒ@ƒCƒ‹‚ª‚Å‚«‚Ü‚·Bw’è‚µ‚½ƒpƒX‚ÉŠÜ‚Ü‚ê‚éƒtƒ@ƒCƒ‹–¼‚Ìˆê——‚ª‚»‚Ì’†‚ÉŠÜ‚Ü‚ê‚Ä‚¢‚Ü‚·B
-Ÿ‚ÉAŸ‚Ì‚æ‚¤‚É“ü—Í‚µ‚Ü‚·B
+ã™ã‚‹ã¨"installcheck.rb"ã¨ã„ã†ãƒ•ã‚¡ã‚¤ãƒ«ãŒã§ãã¾ã™ã€‚æŒ‡å®šã—ãŸãƒ‘ã‚¹ã«å«ã¾ã‚Œã‚‹ãƒ•ã‚¡ã‚¤ãƒ«åã®ä¸€è¦§ãŒãã®ä¸­ã«å«ã¾ã‚Œã¦ã„ã¾ã™ã€‚
+æ¬¡ã«ã€æ¬¡ã®ã‚ˆã†ã«å…¥åŠ›ã—ã¾ã™ã€‚
   ruby installcheck.rb
-‚à‚µÁ‚³‚ê‚½ƒtƒ@ƒCƒ‹‚ª‚È‚¯‚ê‚Î"OK"‚Æo—Í‚µ‚Ü‚·B‚»‚¤‚Å‚È‚¯‚ê‚Î"Broken"‚Æo—Í‚³‚ê‚Ü‚·B‚»‚êˆÈã‚Ìî•ñ‚Í‚È‚É‚à•\¦‚³‚ê‚Ü‚¹‚ñB
+ã‚‚ã—æ¶ˆã•ã‚ŒãŸãƒ•ã‚¡ã‚¤ãƒ«ãŒãªã‘ã‚Œã°"OK"ã¨å‡ºåŠ›ã—ã¾ã™ã€‚ãã†ã§ãªã‘ã‚Œã°"Broken"ã¨å‡ºåŠ›ã•ã‚Œã¾ã™ã€‚ãã‚Œä»¥ä¸Šã®æƒ…å ±ã¯ãªã«ã‚‚è¡¨ç¤ºã•ã‚Œã¾ã›ã‚“ã€‚
