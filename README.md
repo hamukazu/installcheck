@@ -16,7 +16,9 @@ This tool is intended to check quickly if a file is deleted in a specified direc
 ## Usage（使い方）
 
 Type the command as follows:
-    ruby installcheckgen.rb path-to-remember
+```
+ruby installcheckgen.rb path-to-remember
+```
 Then the file "installcheck.rb" is created. Note that file names of all the files in the path specified is embedded in it with compression. 
 Now type the command as follows:
   ruby installcheck.rb
@@ -26,5 +28,7 @@ It says "OK" if no file deletion is detected, and says "Broken" otherwise. It do
     ruby installcheckgen.rb path-to-remember
 すると"installcheck.rb"というファイルができます。指定したパスに含まれるファイル名の一覧がその中に含まれています。
 次に、次のように入力します。
-  ruby installcheck.rb
+```
+ruby installcheck.rb
+```
 もし消されたファイルがなければ"OK"と出力します。そうでなければ"Broken"と出力されます。それ以上の情報はなにも表示されません。
