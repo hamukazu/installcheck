@@ -2,7 +2,7 @@
 
 ## Description（概要）
 
-This program detects if there is a erased file in a specified directory.
+This program detects if there is an erased file in a specified directory.
 
 このプログラムは、指定したディレクトリ内に消されたファイルがあるかを検出します。
 
